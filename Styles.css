@@ -1,0 +1,466 @@
+
+.top
+{
+    margin: 0%;
+    padding: 0%;
+    background-image: url("Images/Home_Background.png");
+    background-color: #26335D;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+}
+
+/*Defines the styles of the heading selector*/
+.Header
+{
+    font-family: Montserrat, Arial, Sans Serif;
+    color: #FFFFFF;
+    position: fixed;
+    margin: 0px;
+    padding-top: 2vh;
+    width:100vw;
+    height: 7vh;
+    background-color: rgb(0,0,0,0.2);
+    z-index: 999 !important;
+}
+
+/*For the brand name*/
+.BrandName
+{
+    position: inherit;
+    color: inherit;
+    width: auto;
+    height: 6.5vh;
+    top: 2.23vh;
+    left: 5.55vw;
+    margin: inherit;
+    
+    font-size: 1.6666667vw;
+    line-height: 6vh;
+    letter-spacing: 0.006vw;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+/*For the home button*/
+.Home
+{
+    margin: inherit;
+    position: inherit;
+    color: inherit;
+    font-weight: 700;
+    width: 3vw;
+    height: 6.5vh;
+    font-size: 1.2vw;
+    line-height: 2.7vh;
+    letter-spacing:  0.006vw;
+    text-align: center;
+    transition: 0.013888vh;
+    top: 4vh;
+    left: 27vw;
+
+}
+.Home:hover
+{
+    opacity: 0.5;
+}
+/*For courses*/
+.courses
+{
+    margin: inherit;
+    position: inherit;
+    color: inherit;
+    font-weight: 700;
+    width: 3vw;
+    height: 6.5vh;
+    font-size: 1.2vw;
+    line-height: 2.7vh;
+    letter-spacing:  0.006vw;
+    text-align: center;
+    transition: 0.013888vh;
+    top: 4vh;
+    left: 32vw;
+
+}
+.courses:hover
+{
+    opacity: 0.5;
+}
+/*for pricing*/
+.pricing
+{
+    margin: inherit;
+    position: inherit;
+    color: inherit;
+    font-weight: 700;
+    width: 3vw;
+    height: 6.5vh;
+    font-size: 1.2vw;
+    line-height: 2.7vh;
+    letter-spacing:  0.006vw;
+    text-align: center;
+    transition: 0.013888vh;
+    top: 4vh;
+    left: 38vw;
+
+}
+.pricing:hover
+{
+    opacity: 0.5;
+}
+/*For contact*/
+.contact
+{
+    margin: inherit;
+    position: inherit;
+    color: inherit;
+    font-weight: 700;
+    width: 3vw;
+    height: 6.5vh;
+    font-size: 1.2vw;
+    line-height: 2.7vh;
+    letter-spacing:  0.006vw;
+    text-align: center;
+    transition: 0.013888vh;
+    top: 4vh;
+    left: 44vw;
+}
+.contact:hover
+{
+    opacity: 0.5;
+    
+}
+/*For login*/
+.login
+{
+    margin: inherit;
+    position: inherit;
+    color: inherit;
+    font-weight: 700;
+    width: 3vw;
+    height: 6.5vh;
+    font-size: 1.2vw;
+    line-height: 2.7vh;
+    letter-spacing:  0.006vw;
+    text-align: center;
+    transition: 0.013888vh;
+    top: 4vh;
+    left: 80vw;
+}
+.login:hover
+{
+    opacity: 0.5;
+}
+/*For the join us page*/
+
+.joinus
+{
+    margin: inherit;
+    position: inherit;
+    color: inherit;
+    font-weight: 700;
+    width: auto;
+    height: 6.5vh;
+    font-size: 1.2vw;
+    line-height: 2.7vh;
+    letter-spacing:  0.006vw;
+    text-align: center;
+    transition: 0.013888vh;
+    top: 1vh;
+    left: 85vw;
+}
+.joinus:hover
+{
+    opacity: 0.5;
+}
+/*For the middle part of the page*/
+
+.Middle
+{
+    font-family: Montserrat, Arial, Sans Serif;
+    color: #FFFFFF;
+    position: absolute;
+    margin: 0px;
+    top: 5.93vh;
+    left:5.555vw;
+    padding: 40px 0px 0px 0px;
+}
+
+.FBS
+{
+    font-family: inherit;
+    margin: inherit;
+    position:inherit;
+    color: inherit;
+    width: 9.86vw;
+    height: 2.68vh;
+    font-weight: 700;
+    font-size: 1.1111vw;
+    line-height: 2.63vh;
+
+}
+
+.Central
+{
+    font-family: inherit;
+    margin: inherit;
+    position:inherit;
+    color: inherit;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5.555vw; /* 137.931% */
+    letter-spacing: 0.2px;
+    padding-top: 2.4vw;
+    width: 40vw;
+}
+
+.goal
+{
+    font-family: inherit;
+    margin: inherit;
+    position:inherit;
+    color: inherit;
+    font-style: normal;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: 0.2px;
+    width: 376px;
+    padding-top: 5vh;
+    top: max(30vh,60px);
+    
+}
+
+.container
+{
+    position:absolute;
+    transition: 0.3s;
+    top:60vh;
+    left: 0vw;
+    width: 100vw;
+    height: 100vh;
+}
+.quote
+{
+    transition: 0.3s;
+    left: 0vw;
+    width: auto;
+    height: 7vh;
+    float:left;
+    
+}
+.quote:hover
+{
+    opacity: 0.8;
+}
+.learnmore
+{
+
+   transition: 0.3s;
+   padding-left: 2vw;
+   width: auto;
+   height: 7vh;
+   float: left;
+}
+.learnmore:hover
+{
+    opacity: 0.6;
+}
+/*Division for the cards*/
+
+.CardRow
+{
+    font-family: Montserrat, Arial, Sans Serif;
+    color: #FFFFFF;
+    position: absolute;
+    margin: 0px;
+    top: 85vh;
+    left:12.5vw;
+}
+
+.Card
+{
+    
+    padding-left: 0vw;
+    width: 25vw;
+    height: auto;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+.Card:hover
+{
+    position:relative;
+    opacity: 0.5;
+}
+/*Selector for the statistics */
+
+.stats
+{
+
+    font-family: Montserrat, Arial, Sans Serif;
+    color: #FFFFFF;
+    position: absolute;
+    margin: 0px;
+    top: 140vh;
+    left:12.5vw;
+    width:80vw;
+    height: auto;
+}
+
+.Line
+{
+    font-family: Montserrat, Arial, Sans Serif;
+    
+    position: absolute;
+    margin: 0px;
+    top: 200vh;
+    left:12.5vw;
+    width:auto;
+    height: auto;
+
+}
+
+/*Most Popular Course*/
+.MPC
+{
+    font-style: normal;
+    position:absolute;
+    color: #FFFFFF;
+    font-family: Montserrat, Arial, Sans Serif;
+    font-size: 3.75vw;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    top: 200vh;
+    left:12.5vw;
+}
+
+/*Statement after MPC*/
+.Statement
+{
+    font-style: normal;
+    position:absolute;
+    color: #FFFFFF;
+    font-family: Montserrat, Arial, Sans Serif;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.2px;
+    text-align: left;
+    top: 215vh;
+    left:12.5vw;
+    width: 40vw;
+    height: 3vh;
+    scale: 100%;
+
+}
+
+/*Image for the most popular course*/
+.MPC_IMG
+{
+    position: absolute;
+    top: 190vh;
+    left:58vw;
+    width: 40vw;
+    height: auto;
+   
+}
+
+/*Quality*/
+.Quality
+{
+    position: absolute;
+    top: 275vh;
+    left:12.5vw;
+    width: 50vw;
+    height: auto;
+   
+}
+
+/*Card Row 2*/
+.CardRow2
+{
+    font-family: Montserrat, Arial, Sans Serif;
+    color: #FFFFFF;
+    position: absolute;
+    margin: 0px;
+    top: 300vh;
+    left: 10vw;
+}
+
+.Card2
+{
+    
+    padding-left: 2.5vw;
+    width: 18vw;
+    height: auto;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+.Card2:hover
+{
+    position:relative;
+    opacity: 0.5;
+}
+/*Testimonials*/
+.Testimonials
+{
+    position: absolute;
+    top: 400vh;
+    left:0vw;
+    width: 100vw;
+    height: auto;
+   
+}
+
+.Newsletter
+{
+    position: absolute;
+    top: max(520vh,1160px);
+    left:25vw;
+    width: 50vw;
+    height: auto;
+    
+}
+/*For forms*/
+
+.email
+{
+    position: absolute;
+    top: max(550vh,1227px);
+    left:25vw;
+    width: 46.3vw;
+    height: 4.5vh;
+    
+}
+
+/*The Submit Button*/
+.Submit
+{
+    position: absolute;
+    top: max(550vh,1227px);
+    left: 71.8vw;
+    width: auto;
+    height: 7.2vh;
+    transition: 0.5s;
+}
+.Submit:hover
+{
+    
+    opacity: 0.3;
+}
+
+/*Footer*/
+.Footer
+{
+    position: absolute;
+    top: max(580vh,1295px);
+    left:0vw;
+    width: 100vw;
+    height: auto;
+}
