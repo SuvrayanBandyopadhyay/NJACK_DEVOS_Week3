@@ -349,10 +349,10 @@
     font-size: 1.5vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px; /* 125% */
+    line-height: 7px; /* 125% */
     letter-spacing: 0.2px;
     text-align: left;
-    top: 215vh;
+    top: max(220vh,370px);
     left:12.5vw;
     width: 40vw;
     height: 3vh;
@@ -391,6 +391,7 @@
     margin: 0px;
     top: 300vh;
     left: 10vw;
+    padding-top: 4vh;
 }
 
 .Card2
@@ -427,26 +428,33 @@
     height: auto;
     
 }
+
+
+/*End section with form and submit button*/
+
+.end
+{
+    position: absolute;
+    top: max(550vh,1227px);
+    left: 67.8vw;
+}
 /*For forms*/
 
 .email
 {
+    left: -37.5vw;
     position: absolute;
-    top: max(550vh,1227px);
-    left:25vw;
-    width: 46.3vw;
-    height: 4.5vh;
+    width: 35.5vw;
+    height: 8px;
     
 }
-
 /*The Submit Button*/
 .Submit
 {
-    position: absolute;
-    top: max(550vh,1227px);
-    left: 71.8vw;
-    width: auto;
-    height: 7.2vh;
+    padding-bottom: 0.7vh;
+    padding-right: 2vw;
+    width: 25px;
+    height: 13px;
     transition: 0.5s;
 }
 .Submit:hover
